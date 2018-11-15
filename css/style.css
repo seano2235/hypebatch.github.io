@@ -10,13 +10,16 @@ body{
 
 .heading1{
 	font-size: 30px;
+	width: 100%;
+
+
 }
 .product-thumb{
-	width: 240px;
+	width: 250px;
 	height: auto;
 	display: inline-block;
 	margin: 55px;
-	float: left;
+	float: center;
 }
 .product-thumb-image{
 	width: 240px;
@@ -27,6 +30,7 @@ body{
 }
 .product-thumb-image img{
 	width: 100%;
+
 }
 .quickview-title{
 	width: 100%;
@@ -61,7 +65,7 @@ body{
 	color: #000;
 }
 .product-thumb-title h3 span{
-	color: #ff7800;
+	color: red;
 }
 
 .product-view{
