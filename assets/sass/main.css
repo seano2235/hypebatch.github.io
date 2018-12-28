@@ -977,6 +977,10 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.Containerlookbook h1 {
+  font-size: 30px;
+  margin-bottom: 30px; }
+
 body {
   font-family: 'Courier', sans-serif; }
 
@@ -1014,17 +1018,30 @@ body {
       #header .menu a:hover {
         color: red; }
 
+.footer {
+  padding: 40px 0; }
+  .footer a {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #000; }
+    .footer a:hover {
+      color: red; }
+
 #content-area .insider {
   max-width: 490px; }
 #content-area .model {
-  float: left;
-  display: inline-block;
+
+
   text-align: center; }
-  #content-area .model img {
-    max-width: 600px;
+  #content-area1 img {
+    max-width: 2000px;
     width: 100%; }
 #content-area .info {
-  float: left;
+  float: none;
   display: inline-block;
   text-align: left; }
   #content-area .info h5 {

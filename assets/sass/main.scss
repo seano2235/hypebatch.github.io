@@ -3,6 +3,14 @@
 @import "reset";
 @import "grid/grid12";
 
+.Containerlookbook{
+  h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+  }
+}
 
 body {
   font-family: 'Courier', sans-serif;
@@ -55,6 +63,26 @@ body {
      }
   }
 }
+
+.footer{
+  padding: 40px 0;
+  a{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #000;
+
+
+    &:hover{
+      color: red;
+    }
+
+  }
+}
+
 
  #content-area{
    .insider {
@@ -276,6 +304,8 @@ body {
 .leftcolumn {
   float: left;
   width: 75%;
+
+  }
 }
 
 /* Right column */
@@ -306,6 +336,7 @@ body {
   }
   img{
     margin-bottom: 20px;
+    width: 50%;
   }
 }
 
